@@ -91,16 +91,16 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 5%;
     justify-content: center;
     align-items: center;
 
     place-items: center;
 }
 .member{
-    height: 10rem;
-    width: 15rem;
-    margin: 20px;
+    height: 14rem;
+    width: 18rem;
+    margin: 10%;
     background-color: rgb(33, 37, 41);
     border-radius: 5%;
 /* 
@@ -152,3 +152,39 @@
     font-weight: 300;
 }
 
+
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-buttons ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-buttons li {
+        margin: 5px 0;
+    }
+
+    .member {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+*/
+/* Styles for screens smaller than 480px */
+/* 
+@media (max-width: 480px) {
+    .member img {
+        max-width: 100px;
+    }
+
+    .member .member-name {
+        font-size: 1.2rem;
+    }
+
+    .member .member-position {
+        font-size: 1rem;
+    }
+} */
