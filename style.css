@@ -87,11 +87,11 @@
     padding-top: 200px;
 }
 .team{
-    margin: 10vw;
+    margin: 5vw;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 5%;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 2%;
     justify-content: center;
     align-items: center;
 
@@ -117,7 +117,7 @@
 }
 
 .member img{
-    height: 70%;
+    height: 60%;
     width: 50%;
     border-radius: 100%;
     grid-row: 1;
@@ -152,6 +152,11 @@
     font-weight: 300;
 }
 
+@media (max-width: 1100px) {
+    .team{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 /* @media (max-width: 768px) {
     .navbar {
